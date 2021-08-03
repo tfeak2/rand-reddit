@@ -4,10 +4,13 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "reddit.images": "^1.0.2",
+    "snoowrap": "^1.23.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {
